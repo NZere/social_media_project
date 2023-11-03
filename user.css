@@ -11,6 +11,8 @@ body {
     display: flex;
     width: 100%;
     padding-bottom: 5rem;
+    height: fit-content !important;
+    background: none;
 }
 
 .ui.grid {
@@ -28,4 +30,22 @@ body {
     margin-bottom: 0 !important;
     min-height: 460px !important;
     height: fit-content !important;
+}
+
+.container {
+    width: 100%;
+    background-color: #a18282;
+    border-radius: 12px;
+    padding: 4.5rem;
+    box-shadow: 5px 5px 14px 1px #937d7d;
+}
+
+.inner {
+    display: flex;
+    width: 100%;
+}
+
+.page-container {
+    height: 100%;
+    background: repeating-linear-gradient( 45deg, #eef1f1 0px, #dee0e0 20px, #f6f7f8 20px, #d7dce1 40px );
 }
