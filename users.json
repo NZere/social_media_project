@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "username": "user1",
+        "first_name": "John",
+        "last_name": "Doe",
+        "middle_name": "",
+        "avatar_url": "https://example.com/user1_avatar.jpg",
+        "email": "user1@example.com",
+        "registered_at": "2023-10-15T08:45:00Z",
+        "subscribers_count": 1200,
+        "subscriptions_count": 550
+    },
+    {
+        "id": 2,
+        "username": "user2",
+        "first_name": "Alice",
+        "last_name": "Smith",
+        "middle_name": "M.",
+        "avatar_url": "https://example.com/user2_avatar.jpg",
+        "email": "user2@example.com",
+        "registered_at": "2023-09-20T14:20:00Z",
+        "subscribers_count": 800,
+        "subscriptions_count": 650
+    },
+    {
+        "id": 3,
+        "username": "user3",
+        "first_name": "Michael",
+        "last_name": "Johnson",
+        "middle_name": "A.",
+        "avatar_url": "https://example.com/user3_avatar.jpg",
+        "email": "user3@example.com",
+        "registered_at": "2023-08-05T10:10:00Z",
+        "subscribers_count": 1500,
+        "subscriptions_count": 700
+    },
+    {
+        "id": 4,
+        "username": "user4",
+        "first_name": "Emily",
+        "last_name": "Brown",
+        "middle_name": "",
+        "avatar_url": "https://example.com/user4_avatar.jpg",
+        "email": "user4@example.com",
+        "registered_at": "2023-07-12T18:30:00Z",
+        "subscribers_count": 600,
+        "subscriptions_count": 450
+    },
+    {
+        "id": 5,
+        "username": "user5",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "middle_name": "R.",
+        "avatar_url": "https://example.com/user5_avatar.jpg",
+        "email": "user5@example.com",
+        "registered_at": "2023-06-25T12:15:00Z",
+        "subscribers_count": 900,
+        "subscriptions_count": 800
+    }
+]

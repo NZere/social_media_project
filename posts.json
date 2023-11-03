@@ -1,0 +1,105 @@
+[
+    {
+        "id": 1,
+        "title": "Amazing Sunset",
+        "image_url": "https://example.com/sunset.jpg",
+        "content": "Enjoying a beautiful sunset by the beach.",
+        "likes_count": 56,
+        "author": "User1",
+        "created_date": "2023-11-01T18:30:00Z",
+        "comments": [
+            {"author": "User2", "text": "Wow, that's breathtaking!"},
+            {"author": "User3", "text": "I wish I were there!"}
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Delicious Homemade Dinner",
+        "image_url": "https://example.com/dinner.jpg",
+        "content": "Just cooked a scrumptious dinner for the family.",
+        "likes_count": 42,
+        "author": "User4",
+        "created_date": "2023-11-02T19:15:00Z",
+        "comments": [
+            {"author": "User5", "text": "It looks so tasty!"},
+            {"author": "User6", "text": "Can you share the recipe?"}
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Cute Puppy",
+        "image_url": "https://example.com/puppy.jpg",
+        "content": "Meet my adorable new puppy, Max!",
+        "likes_count": 78,
+        "author": "User7",
+        "created_date": "2023-11-03T10:45:00Z",
+        "comments": [
+            {"author": "User8", "text": "Max is so cute!"}
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Beautiful Nature",
+        "image_url": "https://example.com/nature.jpg",
+        "content": "Exploring the wonders of nature today.",
+        "likes_count": 50,
+        "author": "User1",
+        "created_date": "2023-11-01T10:00:00Z",
+        "comments": [
+            {"author": "User2", "text": "Nature is so amazing!"},
+            {"author": "User3", "text": "I love outdoor adventures!"}
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Delicious Dessert",
+        "image_url": "https://example.com/dessert.jpg",
+        "content": "Indulging in a sweet treat today.",
+        "likes_count": 42,
+        "author": "User4",
+        "created_date": "2023-11-02T15:30:00Z",
+        "comments": [
+            {"author": "User5", "text": "Yum! What's the recipe?"},
+            {"author": "User6", "text": "I want a bite!"}
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Adventures in the City",
+        "image_url": "https://example.com/city.jpg",
+        "content": "Exploring the vibrant city streets.",
+        "likes_count": 68,
+        "author": "User7",
+        "created_date": "2023-11-03T12:45:00Z",
+        "comments": [
+            {"author": "User8", "text": "City life is so exciting!"},
+            {"author": "User9", "text": "I miss the city!"}
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Cute Pets",
+        "image_url": "https://example.com/pets.jpg",
+        "content": "Spending time with adorable pets today.",
+        "likes_count": 55,
+        "author": "User10",
+        "created_date": "2023-11-04T17:00:00Z",
+        "comments": [
+            {"author": "User11", "text": "Pets are the best!"},
+            {"author": "User12", "text": "I have a pet too!"}
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Sunset View",
+        "image_url": "https://example.com/sunset.jpg",
+        "content": "Enjoying a stunning sunset view by the lake.",
+        "likes_count": 72,
+        "author": "User13",
+        "created_date": "2023-11-05T19:20:00Z",
+        "comments": [
+            {"author": "User14", "text": "The sunset is breathtaking!"},
+            {"author": "User15", "text": "I wish I were there!"}
+        ]
+    }
+]
