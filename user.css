@@ -1,0 +1,31 @@
+body {
+    height: 100% !important;
+}
+
+.column {
+    background-color: #ffefef;
+    border: 1px solid #cbc8c6;
+}
+
+.page {
+    display: flex;
+    width: 100%;
+    padding-bottom: 5rem;
+}
+
+.ui.grid {
+    width: 100%;
+    gap: 10px;
+    margin: 0 !important;
+    margin-left: 5rem !important;
+}
+
+.ui.grid > * {
+    border-radius: 12px;
+}
+
+.ui.card {
+    margin-bottom: 0 !important;
+    min-height: 460px !important;
+    height: fit-content !important;
+}

@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./user.css">
     <script src="./posts.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.slim.js"
         integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
@@ -20,7 +20,101 @@
 </head>
 
 <body>
+    <div class="ui small menu">
+        <a class="active item" href="index.html">
+            Posts
+        </a>
+        <a class="item" href="user.html">
+            Profile
+        </a>
+        <div class="right menu">
+            <div class="ui dropdown item">
+                Language <i class="dropdown icon"></i>
+                <div class="menu">
+                    <a class="item">Kazakh</a>
+                    <a class="item">Russian</a>
+                    <a class="item">English</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ui primary button">Log out</div>
+            </div>
+        </div>
+    </div>
 
+    <div class="page">
+        <div class="ui card">
+            <div class="image">
+                <img
+                    src="https://avatars.githubusercontent.com/u/104254411?s=400&u=19384a563093bf3990c97abc774cf407346d7da8&v=4">
+            </div>
+            <div class="content">
+                <a class="header">Nazzere</a>
+                <div class="meta">
+                    <span class="date">Joined in 2023</span>
+                </div>
+                <div class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatem dolorum iure sequi rem
+                    sint ipsam, dicta id nemo ea animi error autem repudiandae blanditiis unde non! Minima, impedit
+                    rem?0
+                </div>
+            </div>
+            <div class="extra content">
+                <a>
+                    <i class="user icon"></i>
+                    22 Friends
+                </a>
+            </div>
+        </div>
+
+        <div class="ui grid">
+            <div class="four wide column">
+                <h1>Info</h1>
+
+                <div>
+                    <div>
+                        <span>Age:</span>
+                        <span>22</span>
+                    </div>
+
+                    <div>
+                        <span>Status:</span>
+                        <span>In relationship</span>
+                    </div>
+
+                    <div>
+                        <span>Location:</span>
+                        <span>Kazakhstan</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="five wide column">
+                <h1>Some stats</h1>
+
+                <div class="ui olive progress">
+                    <div class="bar"></div>
+                    <div class="label">Stat1</div>
+                </div>
+                <div class="ui green progress">
+                    <div class="bar"></div>
+                    <div class="label">Stat2</div>
+                </div>
+                <div class="ui teal progress">
+                    <div class="bar"></div>
+                    <div class="label">Stat3</div>
+                </div>
+            </div>
+
+            <div class="six wide column">
+                <h1>Your posts</h1>
+            </div>
+
+            <div class="sixteen wide column">
+                <h1>Friends</h1>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

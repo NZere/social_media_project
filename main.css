@@ -3,3 +3,28 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    height: auto !important;
+}
+
+.page {
+    padding: 0 20rem;
+    padding-top: 5rem;
+    background: repeating-linear-gradient(
+        45deg,
+        #eef1f1 0px,
+        #dee0e0 20px,
+        #f6f7f8 20px,
+        #d7dce1 40px
+    );
+    height: 100%;
+}
+
+.ui.small.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
