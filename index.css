@@ -5,9 +5,29 @@
 }
 
 .page {
-    padding: 0 10rem;
+    padding: 0 20rem;
+    background: repeating-linear-gradient(
+        45deg,
+        #eef1f1 0px,
+        #dee0e0 20px,
+        #f6f7f8 20px,
+        #d7dce1 40px
+    );
 }
 
 .page .ui.centered.card:first-child {
     margin-top: 2.875em;
+}
+
+.heart.outline.like.icon:acitve {
+    background-color: blue;
+    font-size: 212px;
+}
+
+.image {
+    height: 650px;
+}
+
+img {
+    height: 100% !important;
 }
