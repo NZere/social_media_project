@@ -6,6 +6,7 @@
 
 .page {
     padding: 0 20rem;
+    padding-top: 5rem;
     background: repeating-linear-gradient(
         45deg,
         #eef1f1 0px,
@@ -13,10 +14,6 @@
         #f6f7f8 20px,
         #d7dce1 40px
     );
-}
-
-.page .ui.centered.card:first-child {
-    margin-top: 2.875em;
 }
 
 .heart.outline.like.icon:acitve {
@@ -30,4 +27,16 @@
 
 img {
     height: 100% !important;
+}
+
+.ui.centered.card {
+    box-shadow: 5px 4px 7px 2px #b8b8bf, 0 0 0 1px #d4d4d5 !important;
+}
+
+.ui.small.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
 }
