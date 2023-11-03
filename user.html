@@ -92,15 +92,26 @@
             <div class="five wide column">
                 <h1>Some stats</h1>
 
-                <div class="ui olive progress">
+                <div 
+                    class="ui indicating progress eg"
+                    data-percent="60"
+                >
                     <div class="bar"></div>
                     <div class="label">Stat1</div>
                 </div>
-                <div class="ui green progress">
+                
+                <div 
+                    class="ui indicating progress eg"
+                    data-percent="20"
+                >
                     <div class="bar"></div>
                     <div class="label">Stat2</div>
                 </div>
-                <div class="ui teal progress">
+
+                <div 
+                    class="ui indicating progress eg"
+                    data-percent="92"
+                >
                     <div class="bar"></div>
                     <div class="label">Stat3</div>
                 </div>
@@ -116,5 +127,9 @@
         </div>
     </div>
 </body>
+
+<script>
+    $('.eg').progress()
+</script>
 
 </html>
